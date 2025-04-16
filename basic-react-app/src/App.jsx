@@ -7,14 +7,16 @@ function Description() {
 }
 
 function App() {
+  let name = "asmii"
   return (
    <div>
      <Title/>
-     <h1>Want to see magic !</h1>
+     <h1>Want to see magic {name.toUpperCase()} !</h1>
      <Title/>
      <button>click here</button>
      <Title/>
      <Description/>
+     <p>2 * 2 = {2 * 2} </p>
    </div>
   );
 }
