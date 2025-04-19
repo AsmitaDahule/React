@@ -1,5 +1,6 @@
 import './App.css'
-import Title  from './Title';'./Title.jsx'
+import Title  from './Title';
+import ProductTab from './ProductTab.jsx';
 
 
 function Description() {
@@ -7,18 +8,22 @@ function Description() {
 }
 
 function App() {
-  let name = "asmii"
+  // let name = "asmii"
+  // return (
+  //  <div>
+  //    <Title/>
+  //    <h1>Want to see magic {name.toUpperCase()} !</h1>
+  //    <Title/>
+  //    <button>click here</button>
+  //    <Title/>
+  //    <Description/>
+  //    <p>2 * 2 = {2 * 2} </p>
+  //  </div>
+  // );
+
   return (
-   <div>
-     <Title/>
-     <h1>Want to see magic {name.toUpperCase()} !</h1>
-     <Title/>
-     <button>click here</button>
-     <Title/>
-     <Description/>
-     <p>2 * 2 = {2 * 2} </p>
-   </div>
-  );
+    <ProductTab />
+  )
 }
 
 export default App
